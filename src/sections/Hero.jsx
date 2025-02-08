@@ -21,7 +21,7 @@ const Hero = () => {
     const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
     return (
-        <section className="min-h-screen w-full flex flex-col relative">
+        <section className="min-h-screen w-full flex flex-col relative" id={"home"}>
             <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
                 <p className="sm:text-3xl text-2xl font-medium text-white text-center font-generalsans">
                     Hi, I am <span>Teimur</span>
@@ -34,7 +34,7 @@ const Hero = () => {
             <div className="w-full h-full absolute inset-0">
                 <Canvas className="w-full h-full">
                     <Suspense fallback={<DelayedLoader />}>
-                        <PerspectiveCamera makeDefault position={[0, 0, 20]} />
+                        <PerspectiveCamera makeDefault position={[0, 0, 30]} />
                         <HeroCamera  isMobile={isMobile}>
                             <HackerRoom
                                 ref={hackerRoomRef}
@@ -73,7 +73,7 @@ const Hero = () => {
             </div>
             <div className={"absolute bottom-7 left-0 right-0 w-full z-10 c-space"}>
                 <a href={"#contact"} className={"w-fit"}>
-                    <Button name={"Let's work together"} isBeam containerClass={"sm:w-fit w-full sm:min-w-96"} />
+                    <Button name={"Let's work together"} isBeam containerClass={"sm:w-fit w-full sm:min-w-96 hover:border-b-4 border-green-500 hover:bg-purple-800 "} />
                 </a>
             </div>
         </section>
