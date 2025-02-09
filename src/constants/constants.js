@@ -11,11 +11,17 @@ export const navLinks = [
     },
     {
         id: 3,
-        name: 'Work',
+        name: 'Projects',
         href: '#work',
     },
     {
         id: 4,
+        name: 'Experience',
+        href: '#experience',
+
+    },
+    {
+        id: 5,
         name: 'Contact',
         href: '#contact',
     },
@@ -260,29 +266,35 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer',
-        duration: '2022 - Present',
-        title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-        icon: '/assets/framer.svg',
+        name: 'George Brown College',
+        pos: 'Teacher Assistant',
+        duration: '2023 - 2025',
+        title: "•\t Educate students on the importance of writing maintainable and efficient code by sharing industry-standard techniques for clean coding, such as proper documentation, modularization, and adherence to coding conventions.\n" +
+            "\n" +
+            "•\t Assist the teacher in delivering lessons by providing additional explanations, demonstrations, and examples to reinforce key concepts in programming.\n",
+        icon: '/assets/gbc_logo.svg',
         animation: 'victory',
     },
     {
         id: 2,
-        name: 'Figma',
-        pos: 'Web Developer',
-        duration: '2020 - 2022',
-        title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-        icon: '/assets/figma.svg',
+        name: 'George Brown College',
+        pos: 'Mobihelp Tutor',
+        duration: '2023 - 2025',
+        title: "•\t Assist students in grasping complex programming concepts by breaking them down into understandable components and providing clear explanations.\n" +
+            "\n" +
+            "•\t Teach students effective problem-solving strategies tailored to programming challenges, empowering them to diagnose and resolve issues independently.\n",
+        icon: '/assets/gbc_logo.svg',
         animation: 'clapping',
     },
     {
         id: 3,
-        name: 'Notion',
-        pos: 'Junior Web Developer',
-        duration: '2019 - 2020',
-        title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-        icon: '/assets/notion.svg',
+        name: 'Boatlink',
+        pos: 'Mobile Application Tester',
+        duration: '2020 - 2021',
+        title: "• Conducted comprehensive mobile application testing to assess application functionality and performance.\n" +
+            "• Implemented manual testing methodologies to ensure the accuracy and reliability of the application.\n" +
+            "• Participated in code review processes to identify and address potential issues or improvements.\n",
+        icon: '/assets/boatlink_logo.svg',
         animation: 'salute',
     },
 ];

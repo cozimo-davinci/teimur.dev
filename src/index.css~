@@ -105,7 +105,7 @@ body {
     }
 
     .work-canvas {
-        @apply col-span-1 rounded-lg bg-black-200 border border-black-300;
+        @apply col-span-2 rounded-lg bg-black-200 border border-black-300;
     }
 
     .work-content {
@@ -134,7 +134,7 @@ body {
     }
 
     .field-input {
-        @apply w-full bg-black-300 px-5 py-2 min-h-14 rounded-lg placeholder:text-white-500 text-lg text-white-800 shadow-black-200 shadow-2xl;
+        @apply w-full bg-black-300 px-5 py-2 min-h-14 rounded-lg placeholder:text-white-500 text-lg text-white-800 shadow-black-200 shadow-2xl focus:outline-none;
     }
 
     .field-btn {
