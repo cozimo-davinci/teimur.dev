@@ -35,7 +35,7 @@ const Hero = () => {
                 <Canvas className="w-full h-full">
                     <Suspense fallback={<DelayedLoader />}>
                         <PerspectiveCamera makeDefault position={[0, 0, 30]} />
-                        <HeroCamera  isMobile={isMobile}>
+                        {/*<HeroCamera  isMobile={isMobile}>*/}
                             <HackerRoom
                                 ref={hackerRoomRef}
                                 position={sizes.deskPosition}
@@ -43,7 +43,7 @@ const Hero = () => {
                                 scale={sizes.deskScale}
                             />
 
-                        </HeroCamera>
+                        {/*</HeroCamera>*/}
                         <group>
                                 <Target position={sizes.targetPosition} />
                             <ReactLogo position={sizes.reactLogoPosition} />
@@ -72,7 +72,7 @@ const Hero = () => {
                 </Canvas>
             </div>
             <div className={"absolute bottom-7 left-0 right-0 w-full z-10 c-space"}>
-                <a href={"#contact"} className={"w-fit"}>
+                <a href={"#about"} className={"w-fit"}>
                     <Button name={"Let's work together"} isBeam containerClass={"sm:w-fit w-full sm:min-w-96 hover:border-b-4 border-green-500 hover:bg-purple-800 "} />
                 </a>
             </div>
