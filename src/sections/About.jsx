@@ -34,12 +34,20 @@ const About = () => {
 
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
+                        <div className="w-full h-auto p-[2px] bg-gradient-to-r from-white to-black rounded-xl">
+                            <img
+                                src="/assets/tech-stack-picture.png"
+                                alt="tech-stack"
+                                className="w-full h-auto rounded-xl object-contain"
+                            />
+                        </div>
+
 
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
                             <p className="grid-subtext">
-                                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
+                                I specialize in a variety of languages, frameworks, and tools that allow me to build
+                                robust and scalable
                                 applications
                             </p>
                         </div>
@@ -58,13 +66,16 @@ const About = () => {
                                 showGraticules
                                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                                labelsData={[{ lat: 43.6532, lng: 79.3832, text: 'Toronto, Canada', color: 'white', size: 18 }]}
+                                labelsData={[{ lat: 45, lng: -79.3832, text: 'Toronto, Canada', color: 'white', size: 18 }]}
                             />
                         </div>
                         <div>
                             <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
                             <p className="grid-subtext">I&apos;m based in Toronto, Canada and open to remote work worldwide.</p>
-                            <Button name="Contact Me" isBeam containerClass="w-full mt-10 hover:cursor-pointer hover:border-b-4 hover:border-green-500 hover:scale-105 hover:bg-purple-800" />
+                            <a href={"#contact"}>
+                                <Button name="Contact Me" isBeam containerClass="w-full mt-10 hover:cursor-pointer hover:border-b-4 hover:border-green-500 hover:scale-105 hover:bg-purple-800"  />
+                            </a>
+
                         </div>
                     </div>
                 </div>
