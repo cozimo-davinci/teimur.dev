@@ -6,7 +6,11 @@ const NavItems = () => {
         <ul className="nav-ul">
             {navLinks.map(({ id, href, name }) => (
                 <li key={id} className="nav-li">
-                    <a href={href} className="nav-li_a">
+                    <a
+                        href={href}
+                        className="nav-li_a"
+                        {...(href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                    >
                         {name}
                     </a>
                 </li>
@@ -14,6 +18,7 @@ const NavItems = () => {
         </ul>
     );
 };
+
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);

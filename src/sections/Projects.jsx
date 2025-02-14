@@ -21,7 +21,7 @@ const Projects = () => {
 
     return (
         <section className="c-space my-20" id="work">
-            <p className="head-text">My Work</p>
+            <p className="head-text">My Projects</p>
             {/* Set up a grid with 2 columns on large screens */}
             <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
 

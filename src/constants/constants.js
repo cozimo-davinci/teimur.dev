@@ -28,12 +28,12 @@ export const navLinks = [
     {
         id: 6,
         name: 'Resume',
-        href: '',
+        href: 'https://docs.google.com/document/d/1rosc0aSdwdFlBjA81AfhmFbst-gIZVSrx6lSzrAORas/edit?usp=sharing',
     },
     {
         id: 7,
         name: 'Cover Letter',
-        href: '',
+        href: 'https://docs.google.com/document/d/1FL2la5u0buisCIEhrXHm8XWiL51goL8BYDjYqh3z5OE/edit?usp=sharing',
     }
 
 ];
@@ -74,44 +74,44 @@ export const clientReviews = [
 ];
 
 export const myProjects = [
-    {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-        subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: '',
-        texture: '/textures/project/project1.mp4',
-        logo: '/assets/project-logo1.png',
-        logoStyle: {
-            backgroundColor: '#2A1816',
-            border: '0.2px solid #36201D',
-            boxShadow: '0px 0px 60px 0px #AA3C304D',
-        },
-        spotlight: '/assets/spotlight1.png',
-        status: "In progress",
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
-        ],
-    },
+    // {
+    //     title: 'Podcastr - AI Podcast Platform',
+    //     desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    //     subdesc:
+    //         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+    //     href: '',
+    //     texture: '/textures/project/project1.mp4',
+    //     logo: '/assets/project-logo1.png',
+    //     logoStyle: {
+    //         backgroundColor: '#2A1816',
+    //         border: '0.2px solid #36201D',
+    //         boxShadow: '0px 0px 60px 0px #AA3C304D',
+    //     },
+    //     spotlight: '/assets/spotlight1.png',
+    //     status: "In progress",
+    //     tags: [
+    //         {
+    //             id: 1,
+    //             name: 'React.js',
+    //             path: '/assets/react.svg',
+    //         },
+    //         {
+    //             id: 2,
+    //             name: 'TailwindCSS',
+    //             path: 'assets/tailwindcss.png',
+    //         },
+    //         {
+    //             id: 3,
+    //             name: 'TypeScript',
+    //             path: '/assets/typescript.png',
+    //         },
+    //         {
+    //             id: 4,
+    //             name: 'Framer Motion',
+    //             path: '/assets/framer.png',
+    //         },
+    //     ],
+    // },
     {
         title: 'Face Detection Model',
         desc: "An advanced real-time face detection model utilizing a dual-headed neural network for precise and " +
@@ -153,10 +153,10 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Enigma - AI',
-        desc: "Enigma AI is a cutting-edge AI-powered application specializing in professional speech processing and " +
+        title: 'Listener - AI',
+        desc: "Listener AI is a cutting-edge AI-powered application specializing in professional speech processing and " +
             "audio transcription, delivering accurate and efficient results.",
-        subdesc: "Currently focused on audio transcription, Enigma AI is built using Expo + React Native, Google API Speech-to-Text, " +
+        subdesc: "Currently focused on audio transcription, Listener AI is built using Expo + React Native, Google API Speech-to-Text, " +
             "and TypeScript. Future enhancements will expand its capabilities to video processing and sound cleaning, integrating additional advanced technologies along the way.",
 
         href: 'https://github.com/cozimo-davinci/enigma_ai',
@@ -195,32 +195,32 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Chefster - Social Media App',
-        desc: "Chefster is an innovative social media platform designed for chefs and food enthusiasts. " +
-            "It allows users to connect, share recipes, and explore diverse culinary experiences, fostering a vibrant community of food lovers.",
-        subdesc: "Built using Expo + React Native for a seamless mobile experience, with Express.js powering the backend," +
-            " and Supabase and Firebase ensuring secure data management and real-time interactions.",
+        title: 'Enigma Chat',
+        desc: "Enigma Chat is a simple but effective chat web application designed for quick and easy communication between users. " +
+            "It allows users to qucikly create an account and join groups, where they can chat with other users. Additionally, they can chat privately within the other users",
+        subdesc: "Built using React for a seamless web experience, with Express.js powering the backend," +
+            " and MongoDB ensuring secure data management, real-time group joining and messaging. In addition, real-time messaging is implemented using Socket.io.",
 
-        href: 'https://github.com/cozimo-davinci/chefsta_ui',
-        texture: '/textures/project/chefsta_demo.mp4',
-        logo: '/assets/chefster-logo.png',
+        href: 'https://github.com/cozimo-davinci/enigma_chat_app',
+        texture: '/textures/project/chat_app.mkv',
+        logo: '/assets/enigma-logo.png',
         logoStyle: {
             backgroundColor: '#0E1F38',
             border: '0.2px solid #0E2D58',
             boxShadow: '0px 0px 60px 0px #2F67B64D',
         },
         spotlight: '/assets/spotlight4.png',
-        status: "In progress",
+        status: "Completed",
         tags: [
             {
                 id: 1,
-                name: 'React Native',
-                path: '/assets/react-native.svg',
+                name: 'React',
+                path: '/assets/react.svg',
             },
             {
                 id: 2,
-                name: 'Expo',
-                path: '/assets/expoio-icon.svg',
+                name: 'Socket.io',
+                path: '/assets/socketio-icon.svg',
             },
             {
                 id: 3,
@@ -229,8 +229,8 @@ export const myProjects = [
             },
             {
                 id: 4,
-                name: 'Supabase',
-                path: '/assets/supabase-icon.svg',
+                name: 'MongoDB',
+                path: '/assets/mongodb-icon.svg',
             },
         ],
     },
@@ -290,9 +290,9 @@ export const workExperiences = [
         name: 'George Brown College',
         pos: 'Teacher Assistant',
         duration: '2023 - 2025',
-        title: "•\t Educate students on the importance of writing maintainable and efficient code by sharing industry-standard techniques for clean coding, such as proper documentation, modularization, and adherence to coding conventions.\n" +
+        title: "•\t Guided students through intricate programming challenges by breaking down topics such as object-oriented programming, data structures, and algorithm design into manageable components.\n" +
             "\n" +
-            "•\t Assist the teacher in delivering lessons by providing additional explanations, demonstrations, and examples to reinforce key concepts in programming.\n",
+            "•\t Taught effective debugging and troubleshooting techniques to help students independently identify and resolve issues in their codebases, aligning with best practices for backend and front-end development.\n",
         icon: '/assets/gbc_logo.svg',
         animation: 'victory',
     },
@@ -303,7 +303,7 @@ export const workExperiences = [
         duration: '2023 - 2025',
         title: "•\t Assist students in grasping complex programming concepts by breaking them down into understandable components and providing clear explanations.\n" +
             "\n" +
-            "•\t Teach students effective problem-solving strategies tailored to programming challenges, empowering them to diagnose and resolve issues independently.\n",
+            "•\t Supported students in building full-stack applications using modern technologies such as React.js, Node.js, Express.js, Spring Boot, MongoDB, and Postgres, mirroring real-world microservices architectures.\n",
         icon: '/assets/gbc_logo.svg',
         animation: 'clapping',
     },
@@ -313,8 +313,8 @@ export const workExperiences = [
         pos: 'Mobile Application Tester',
         duration: '2020 - 2021',
         title: "• Conducted comprehensive mobile application testing to assess application functionality and performance.\n" +
-            "• Implemented manual testing methodologies to ensure the accuracy and reliability of the application.\n" +
-            "• Participated in code review processes to identify and address potential issues or improvements.\n",
+            "• Reviewed codebases written in React and React Native, identifying potential issues and recommending enhancements for maintainability and scalability.\n" +
+            "• Proposed security validation strategies to enhance the application's overall security posture.\n",
         icon: '/assets/boatlink_logo.svg',
         animation: 'salute',
     },
