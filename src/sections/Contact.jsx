@@ -54,61 +54,67 @@ const Contact = () => {
 
     return (
         <section className="c-space my-20" id="contact">
-
-            <div className="relative min-h-screen flex items-center justify-center flex-col">
-
-                <img src="/assets/terminal.png" alt="terminal background"
-                     className="absolute inset-0 min-h-screen" />
-                <div className="contact-container">
-                    <h3 className="head-text">Let&apos;s talk</h3>
-                    <p className="text-lg text-white-600">
-                        I&apos;d love to hear from you! Whether you have a question, want to collaborate on a project, or
-                        bring a unique project to life, feel free to reach out. I am here to help
+            <div className="relative min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
+                <img
+                    src="/assets/terminal.png"
+                    alt="terminal background"
+                    className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="contact-container bg-black bg-opacity-80 p-6 rounded-lg max-w-lg w-full">
+                    <h3 className="head-text text-center">Let&apos;s talk</h3>
+                    <p className="text-lg text-white-600 text-center">
+                        I&apos;d love to hear from you! Whether you have a question, want to collaborate on a project,
+                        or
+                        bring a unique project to life, feel free to reach out. I am here to help.
                     </p>
-                    <form ref={formRef} onSubmit={handleSubmit}
-                          className="mt-12 flex flex-col space-y-7">
-                        <label className="space-y-3">
+                    <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-5">
+                        <label>
                             <span className="field-label">Full Name</span>
+                            <input
+                                type="text"
+                                name="name"
+                                value={form.name}
+                                onChange={handleChange}
+                                required
+                                placeholder="Salazar Toress"
+                                className="field-input w-full focus:border-b-2 focus:border-green-500"
+                            />
                         </label>
-                        <input
-                            type="text"
-                            name="name"
-                            value={form.name}
-                            onChange={handleChange}
-                            required
-                            placeholder="Salazar Toress"
-                            className="field-input focus:border-b-2 focus:border-green-500"/>
-                        <label className="space-y-3">
+                        <label>
                             <span className="field-label">Email</span>
+                            <input
+                                type="email"
+                                name="email"
+                                value={form.email}
+                                onChange={handleChange}
+                                required
+                                placeholder="salazar.toress@gmail.com"
+                                className="field-input w-full focus:border-b-2 focus:border-green-500"
+                            />
                         </label>
-                        <input
-                            type="email"
-                            name="email"
-                            value={form.email}
-                            onChange={handleChange}
-                            required
-                            placeholder="salazar.toress@gmail.com"
-                            className="field-input focus:border-b-2 focus:border-green-500"/>
-                        <label className="space-y-3">
+                        <label>
                             <span className="field-label">Message</span>
+                            <textarea
+                                rows={5}
+                                name="message"
+                                value={form.message}
+                                onChange={handleChange}
+                                required
+                                placeholder="Hi, I am interested in...."
+                                className="field-input w-full focus:border-b-2 focus:border-green-500"
+                            />
                         </label>
-                        <textarea
-                            rows={5}
-                            name="message"
-                            value={form.message}
-                            onChange={handleChange}
-                            required
-                            placeholder="Hi, I am interested in...."
-                            className="field-input focus:border-b-2 focus:border-green-500"/>
-                        <button className="field-btn hover:animate-bounce hover:border-b-4 hover:border-green-500" type="submit" disabled={loading}>
+                        <button
+                            className="field-btn w-full hover:animate-bounce hover:border-b-4 hover:border-green-500"
+                            type="submit" disabled={loading}>
                             {loading ? "Sending..." : "Send Message"}
                             <img src="/assets/arrow-up.png" alt="arrow" className="field-btn_arrow"/>
                         </button>
                     </form>
                 </div>
             </div>
-
         </section>
+
     )
 }
 export default Contact
