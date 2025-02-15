@@ -25,8 +25,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Hi, I’m Teimur Terchyyev</p>
                             <p className="grid-subtext">
-                                With 1 year of experience in the field of software development, I have honed my skills in creating
-                                appealing and user-friendly interfaces.
+                                I have developed a strong foundation in software development, enabling me to craft appealing and user-friendly interfaces.
                             </p>
                         </div>
                     </div>
