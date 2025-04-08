@@ -74,44 +74,54 @@ export const clientReviews = [
 ];
 
 export const myProjects = [
-    // {
-    //     title: 'Podcastr - AI Podcast Platform',
-    //     desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-    //     subdesc:
-    //         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    //     href: '',
-    //     texture: '/textures/project/project1.mp4',
-    //     logo: '/assets/project-logo1.png',
-    //     logoStyle: {
-    //         backgroundColor: '#2A1816',
-    //         border: '0.2px solid #36201D',
-    //         boxShadow: '0px 0px 60px 0px #AA3C304D',
-    //     },
-    //     spotlight: '/assets/spotlight1.png',
-    //     status: "In progress",
-    //     tags: [
-    //         {
-    //             id: 1,
-    //             name: 'React.js',
-    //             path: '/assets/react.svg',
-    //         },
-    //         {
-    //             id: 2,
-    //             name: 'TailwindCSS',
-    //             path: 'assets/tailwindcss.png',
-    //         },
-    //         {
-    //             id: 3,
-    //             name: 'TypeScript',
-    //             path: '/assets/typescript.png',
-    //         },
-    //         {
-    //             id: 4,
-    //             name: 'Framer Motion',
-    //             path: '/assets/framer.png',
-    //         },
-    //     ],
-    // },
+    {
+        title: 'Spondex - Employee Management System',
+        desc: 'Spondex is a unique employee management system that empowers businesses to efficiently manage their workforce',
+        subdesc:
+            'Built as a robust Software-as-a-Service app with Angular,  CSS, TypeScript, GraphQL, Node.js and MongoDB, Spondex offers a user-friendly interface for managing employees.',
+        href: 'https://spondex-system.vercel.app/',
+        texture: '/textures/project/spondex-demo.mp4',
+        logo: '/assets/spondex.svg',
+        logoStyle: {
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        status: "Completed",
+        tags: [
+            {
+                id: 1,
+                name: 'Angular',
+                path: '/assets/angular-icon.svg',
+            },
+            {
+                id: 2,
+                name: 'CSS',
+                path: 'assets/css-3.svg',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 4,
+                name: 'GraphQL',
+                path: '/assets/graphql-logo-2.svg',
+            },
+            {
+                id: 5,
+                name: 'Node.js',
+                path: '/assets/nodejs-1.svg',
+            },
+            {
+                id: 6,
+                name: 'MongoDB',
+                path: '/assets/mongodb-icon.svg',
+            },
+        ],
+    },
     {
         title: 'Face Detection Model',
         desc: "An advanced real-time face detection model utilizing a dual-headed neural network for precise and " +
