@@ -75,6 +75,58 @@ export const clientReviews = [
 
 export const myProjects = [
     {
+        title: 'Enigma Wallet',
+        desc: "Enigma Wallet is a non-custodial crypto wallet that empowers users to store, manage, and access their digital assets. " +
+            "They can transact with other users, receive payments, and access their assets without the need for a central authority.",
+        subdesc: "Additionally, Enigma Wallet includes a feature that allows users to add their own NFTs, and stake their assets in the liquid staking pools, making it a versatile and secure platform for digital asset management.",
+
+        href: 'https://github.com/cozimo-davinci/enigma_wallet/tree/main',
+        texture: '/textures/project/enigma_wallet_demo.mp4',
+        logo: '/assets/enigma_wallet.png',
+        logoStyle: {
+            backgroundColor: '#60f5a1',
+            background:
+                'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+            border: '0.2px solid rgba(208, 213, 221, 1)',
+            boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+        },
+        spotlight: '/assets/spotlight3.png',
+        status: "In progress",
+        tags: [
+            {
+                id: 1,
+                name: 'React Native',
+                path: '/assets/react-native.svg',
+            },
+            {
+                id: 2,
+                name: 'Bitcoin',
+                path: 'assets/bitcoin-icon.svg',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 4,
+                name: 'Expo',
+                path: '/assets/expoio-icon.svg',
+            },
+            {
+                id: 5,
+                name: 'Node.js',
+                path: '/assets/nodejs-1.svg',
+            },
+            {
+                id: 6,
+                name: 'Supabase',
+                path: '/assets/supabase-icon.svg',
+            }
+        ],
+    },
+
+    {
         title: 'Spondex - Employee Management System',
         desc: 'Spondex is a unique employee management system that empowers businesses to efficiently manage their workforce',
         subdesc:
@@ -138,7 +190,7 @@ export const myProjects = [
             boxShadow: '0px 0px 60px 0px #2F6DB54D',
         },
         spotlight: '/assets/spotlight2.png',
-        status: "In progress",
+        status: "Completed",
         tags: [
             {
                 id: 1,
@@ -162,48 +214,7 @@ export const myProjects = [
             },
         ],
     },
-    {
-        title: 'Listener - AI',
-        desc: "Listener AI is a cutting-edge AI-powered application specializing in professional speech processing and " +
-            "audio transcription, delivering accurate and efficient results.",
-        subdesc: "Currently focused on audio transcription, Listener AI is built using Expo + React Native, Google API Speech-to-Text, " +
-            "and TypeScript. Future enhancements will expand its capabilities to video processing and sound cleaning, integrating additional advanced technologies along the way.",
 
-        href: 'https://github.com/cozimo-davinci/enigma_ai',
-        texture: '/textures/project/enigma.mp4',
-        logo: '/assets/enigma-ai.png',
-        logoStyle: {
-            backgroundColor: '#60f5a1',
-            background:
-                'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-            border: '0.2px solid rgba(208, 213, 221, 1)',
-            boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-        },
-        spotlight: '/assets/spotlight3.png',
-        status: "In progress",
-        tags: [
-            {
-                id: 1,
-                name: 'React Native',
-                path: '/assets/react-native.svg',
-            },
-            {
-                id: 2,
-                name: 'Google Speech-to-Text API',
-                path: 'assets/google-ai-1.svg',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Expo',
-                path: '/assets/expoio-icon.svg',
-            },
-        ],
-    },
     {
         title: 'Enigma Chat',
         desc: "Enigma Chat is a simple but effective chat web application designed for quick and easy communication between users. " +
