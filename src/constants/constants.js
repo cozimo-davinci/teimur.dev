@@ -183,6 +183,55 @@ export const myProjects = [
     },
 
     {
+        title: 'Finanasta - Financial Data Analytics Platform',
+        desc: "Finansta is a web-based platform for analyzing and visualizing financial data. " +
+            " It provides a user-friendly interface for exploring and understanding necessary financial datasets.",
+        subdesc: " This project was developed using React.js, TypeScript, TailwindCSS, ASP.NET Core, and SQL Server.",
+
+        href: 'https://github.com/cozimo-davinci/finansta',
+        texture: '/textures/project/finansta_demo.mp4',
+        logo: '/assets/finansta_logo.png',
+        logoStyle: {
+            backgroundColor: '#60f5a1',
+            background:
+                'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+            border: '0.2px solid rgba(208, 213, 221, 1)',
+            boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+        },
+        spotlight: '/assets/spotlight3.png',
+        status: "Completed",
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'ASP.NET',
+                path: 'assets/dotnet-icon.svg',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 4,
+                name: 'TailwindCSS',
+                path: '/assets/tailwindcss.png',
+            },
+
+            {
+                id: 5,
+                name: 'SQL Server',
+                path: '/assets/microsoft-sql-server.svg',
+            },
+
+        ],
+    },
+
+    {
         title: 'Spondex - Employee Management System',
         desc: 'Spondex is a unique employee management system that empowers businesses to efficiently manage their workforce',
         subdesc:
