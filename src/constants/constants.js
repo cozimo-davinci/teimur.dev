@@ -125,6 +125,62 @@ export const myProjects = [
             }
         ],
     },
+    {
+        title: 'Progex - Job Applications Tracker and AI Interviewer',
+        desc: "Progex is a highly interactive web tool for tailoring resumes to your needs and successful interview preparation. " +
+            "In addition, it provides credibility analysis of your resume, and an AI interviewer that can help you prepare for your interviews.",
+        subdesc: "This project is currently in development and will be released in the future.",
+
+        href: 'https://github.com/cozimo-davinci/progex',
+        texture: '/textures/project/progex_demo.mp4',
+        logo: '/assets/progex_logo.png',
+        logoStyle: {
+            backgroundColor: '#60f5a1',
+            background:
+                'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+            border: '0.2px solid rgba(208, 213, 221, 1)',
+            boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+        },
+        spotlight: '/assets/spotlight3.png',
+        status: "Prototype",
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'Redis',
+                path: 'assets/redis-icon.svg',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 4,
+                name: 'TailwindCSS',
+                path: '/assets/tailwindcss.png',
+            },
+            {
+                id: 5,
+                name: 'Node.js',
+                path: '/assets/nodejs-1.svg',
+            },
+            {
+                id: 6,
+                name: 'Supabase',
+                path: '/assets/supabase-icon.svg',
+            },
+            {
+                id: 7,
+                name: 'Next.js',
+                path: '/assets/nextjs-icon.svg',
+            }
+        ],
+    },
 
     {
         title: 'Spondex - Employee Management System',

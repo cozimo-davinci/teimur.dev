@@ -89,12 +89,26 @@ const Projects = () => {
                         </button>
                     </div>
                     <div className="flex items-center mt-5 gap-2">
-                        <span className="relative flex h-3 w-3">
-                            <span
-                                className={`animate-ping absolute inline-flex h-full w-full rounded-full ${currentProject.status === "In progress" ? "bg-yellow-400" : "bg-green-400"} opacity-75`}/>
-                            <span
-                                className={`relative inline-flex rounded-full h-3 w-3 ${currentProject.status === "In progress" ? "bg-yellow-500" : "bg-green-500"}`}/>
-                        </span>
+  <span className="relative flex h-3 w-3">
+    <span
+        className={`animate-ping absolute inline-flex h-full w-full rounded-full ${
+            {
+                Completed: "bg-green-400",
+                "In Progress": "bg-yellow-400",
+                Prototype: "bg-purple-500",
+            }[currentProject.status] || "bg-yellow-400" // Fallback color
+        } opacity-75`}
+    />
+    <span
+        className={`relative inline-flex rounded-full h-3 w-3 ${
+            {
+                Completed: "bg-green-500",
+                "In Progress": "bg-yellow-500",
+                Prototype: "bg-purple-500",
+            }[currentProject.status] || "bg-yellow-500" // Fallback color
+        }`}
+    />
+  </span>
                         <p className="text-white text-medium font-medium">{currentProject.status}</p>
                     </div>
                 </div>
